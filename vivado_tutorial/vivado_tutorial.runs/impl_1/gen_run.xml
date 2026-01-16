@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1768591372">
+  <File Type="PA-TCL" Name="gate.tcl"/>
+  <File Type="REPORTS-TCL" Name="gate_reports.tcl"/>
+  <File Type="INIT-TIMING" Name="gate_timing_summary_init.rpt"/>
+  <File Type="OPT-DCP" Name="gate_opt.dcp"/>
+  <File Type="OPT-DRC" Name="gate_drc_opted.rpt"/>
+  <File Type="OPT-UTIL" Name="gate_utilization_opted.rpt"/>
+  <File Type="OPT-UTIL-PB" Name="gate_utilization_opted.pb"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="gate_methodology_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="gate.hwdef"/>
+  <File Type="OPT-TIMING" Name="gate_timing_summary_opted.rpt"/>
+  <File Type="OPT-RQA-PB" Name="gate_rqa_opted.pb"/>
+  <File Type="PWROPT-DCP" Name="gate_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="gate_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="gate_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="gate_placed.dcp"/>
+  <File Type="PLACE-IO" Name="gate_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="gate_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="gate_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="gate_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="gate_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="gate_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="gate_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="gate_timing_summary_placed.rpt"/>
+  <File Type="PLACE-RQA-PB" Name="gate_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="gate_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="gate_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="gate_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="gate_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="gate_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="gate_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="gate_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="gate_routed_bb.dcp"/>
+  <File Type="ROUTE-UTIL" Name="gate_utilization_routed.rpt"/>
+  <File Type="ROUTE-UTIL-PB" Name="gate_utilization_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="gate_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="gate_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="gate_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="gate_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="gate_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="gate_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="gate_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="gate_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="gate_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="gate_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="gate_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="gate_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="gate_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="gate_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="gate_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="gate_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="gate_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="gate_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="gate_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-RQS-PB" Name="gate_rqs_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="gate_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="gate_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="gate_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="gate_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="gate_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="gate_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="gate_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="gate_bus_skew_postroute_physopted.rpx"/>
+  <File Type="NOC_TRAFFIC_SPEC_FILE" Name="gate.nts"/>
+  <File Type="NOC_SOLUTION_FILE" Name="gate.ncr"/>
+  <File Type="BG-BIT" Name="gate.bit"/>
+  <File Type="BG-BIN" Name="gate.bin"/>
+  <File Type="BITSTR-MSK" Name="gate.msk"/>
+  <File Type="BITSTR-RBT" Name="gate.rbt"/>
+  <File Type="BITSTR-NKY" Name="gate.nky"/>
+  <File Type="BITSTR-BMM" Name="gate_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="gate.mmi"/>
+  <File Type="PDI-FILE" Name="gate.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="gate_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="gate_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="gate.rcfi"/>
+  <File Type="CFI_FILE" Name="gate.cfi"/>
+  <File Type="RNPI_FILE" Name="gate.rnpi"/>
+  <File Type="RCDO-FILE" Name="gate.rcdo"/>
+  <File Type="MARKER-RNPI-FILE" Name="gate_markers.rnpi"/>
+  <File Type="MARKER-RCDO-FILE" Name="gate_markers.rcdo"/>
+  <File Type="BOOT_RNPI_FILE" Name="gate_boot.rnpi"/>
+  <File Type="BOOT_MARKER_RNPI_FILE" Name="gate_boot_markers.rnpi"/>
+  <File Type="PL_RNPI_FILE" Name="gate_pld.rnpi"/>
+  <File Type="PL_MARKER_RNPI_FILE" Name="gate_pld_markers.rnpi"/>
+  <File Type="PL_MASK_RNPI_FILE" Name="gate_pld_mask.rnpi"/>
+  <File Type="PL_SHUTDOWN_RNPI_FILE" Name="gate_pld_shutdown.rnpi"/>
+  <File Type="PL_UNMASK_RNPI_FILE" Name="gate_pld_unmask.rnpi"/>
+  <File Type="PL-RCDO-FILE" Name="gate_pld.rcdo"/>
+  <File Type="PL-CLEAR-RCDO-FILE" Name="gate_pld_clear.rcdo"/>
+  <File Type="PL_MARKER_RCDO_FILE" Name="gate_pld_markers.rcdo"/>
+  <File Type="PL_MASK_RCDO_FILE" Name="gate_pld_mask.rcdo"/>
+  <File Type="PL_UNMASK_MARKER_RCDO_FILE" Name="gate_pld_unmask_markers.rcdo"/>
+  <File Type="PL_UNMASK_RCDO_FILE" Name="gate_pld_unmask.rcdo"/>
+  <File Type="NPI_FILE" Name="gate.npi"/>
+  <File Type="RBD_FILE" Name="gate.rbd"/>
+  <File Type="MMI-FILE" Name="gate.mmi"/>
+  <File Type="BIF-FILE" Name="gate.bif"/>
+  <File Type="BOOT-BIF-FILE" Name="gate_boot.bif"/>
+  <File Type="PL-BIF-FILE" Name="gate_pld.bif"/>
+  <File Type="LTX-FILE" Name="gate.ltx"/>
+  <File Type="BOOT-LTX-FILE" Name="gate_boot.ltx"/>
+  <File Type="PL-LTX-FILE" Name="gate_pld.ltx"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="gate.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="gate.sysdef"/>
+  <File Type="BG-BGN" Name="gate.bgn"/>
+  <File Type="BG-DRC" Name="gate.drc"/>
+  <File Type="RDI-RDI" Name="gate.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="gate_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="gate_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/tutorial_downloaded_files/gate.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../tutorial_downloaded_files/gate.v"/>
+        <Attr Name="ImportTime" Val="1768589447"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="gate"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/tutorial_downloaded_files/Basys3_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../tutorial_downloaded_files/Basys3_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1768589448"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/gate.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2025">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
