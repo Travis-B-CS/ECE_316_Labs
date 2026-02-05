@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/4trav/Desktop/ECE_Labs/ECE_316_Labs/lab1/lab1.srcs/sources_1/new/multiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/4trav/Desktop/ECE_Labs/ECE_316_Labs/lab1/lab1.srcs/sim_1/new/tb_multiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_multiplexer
