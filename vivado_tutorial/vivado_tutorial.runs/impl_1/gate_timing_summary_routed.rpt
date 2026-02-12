@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
-| Date         : Fri Jan 16 13:24:50 2026
+| Date         : Fri Jan 16 15:03:39 2026
 | Host         : Travis-Laptop running 64-bit major release  (build 9200)
 | Command      : report_timing_summary -max_paths 10 -routable_nets -report_unconstrained -file gate_timing_summary_routed.rpt -pb gate_timing_summary_routed.pb -rpx gate_timing_summary_routed.rpx -warn_on_violation
 | Design       : gate
@@ -230,7 +230,7 @@ Slack:                    inf
                          net (fo=0)                   0.000     0.000    a
     V17                  IBUF (Prop_ibuf_I_O)         1.453     1.453 r  a_IBUF_inst/O
                          net (fo=1, routed)           1.070     2.523    a_IBUF
-    SLICE_X0Y11          LUT2 (Prop_lut2_I0_O)        0.124     2.647 r  c_OBUF_inst_i_1/O
+    SLICE_X0Y11          LUT2 (Prop_lut2_I1_O)        0.124     2.647 r  c_OBUF_inst_i_1/O
                          net (fo=1, routed)           1.877     4.524    c_OBUF
     U16                  OBUF (Prop_obuf_I_O)         3.505     8.029 r  c_OBUF_inst/O
                          net (fo=0)                   0.000     8.029    c
@@ -259,7 +259,7 @@ Slack:                    inf
                          net (fo=0)                   0.000     0.000    b
     V16                  IBUF (Prop_ibuf_I_O)         0.229     0.229 r  b_IBUF_inst/O
                          net (fo=1, routed)           0.342     0.571    b_IBUF
-    SLICE_X0Y11          LUT2 (Prop_lut2_I1_O)        0.045     0.616 r  c_OBUF_inst_i_1/O
+    SLICE_X0Y11          LUT2 (Prop_lut2_I0_O)        0.045     0.616 r  c_OBUF_inst_i_1/O
                          net (fo=1, routed)           0.427     1.043    c_OBUF
     U16                  OBUF (Prop_obuf_I_O)         1.206     2.249 r  c_OBUF_inst/O
                          net (fo=0)                   0.000     2.249    c

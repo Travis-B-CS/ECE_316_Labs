@@ -19,6 +19,7 @@ module gate(
     //This AND gate is named g1 and takes in a, b as inputs and c as output.
 
     //and g1(c,a,b); //Comment/uncomment this line
+    xor g1(c,a,b); //my xor gate
     
     //--------------------------------------------------------------------------------------
     //Dataflow modeling - Expresses output as a function of inputs, uses bitwise operators
@@ -28,6 +29,7 @@ module gate(
     //The AND gate is now expressed as c = a AND b.
 
     //assign c = a & b; //Comment/uncoment this line
+    //assign c = a ^ b; //my xor gate
     
     //--------------------------------------------------------------------------------------
     //Behavioral modeling - Describes behavior of a system, most similar to "normal coding"
@@ -35,18 +37,30 @@ module gate(
     //There's a lot of nuance here that you will learn later.
     //Comment/uncomment this block of code: (you can use the "//" icon at the top of this window to toggle comment blocks)
     
-    reg c_buf=0;
-    assign c = c_buf;       //This is a dataflow modeling statement; we'll explain why it's necessary later.
-    always @(*)             //This is an always block. All the code in this block is executed indefinitely.
-    begin                   //Keywords "begin" and "end" are Verilog's equivalent of C/C++'s curly braces. Verilog curly braces serve as the "concatenate" operator.
-        case({a,b})         //Case statements act like switch statements in C - can toggle outputs based on inputs
-        2'b00: c_buf=0;     //This line can be interpreted as: if ab = 00, then set c_buf = 0. Note that ab is considered one value because of the {a,b} concatenation operator.
-        2'b01: c_buf=0;
-        2'b10: c_buf=0;
-        2'b11: c_buf=1;
-        default: c_buf = 0;
-        endcase
-    end   
+//    reg c_buf=0;
+//    assign c = c_buf;       //This is a dataflow modeling statement; we'll explain why it's necessary later.
+//    always @(*)             //This is an always block. All the code in this block is executed indefinitely.
+//    begin                   //Keywords "begin" and "end" are Verilog's equivalent of C/C++'s curly braces. Verilog curly braces serve as the "concatenate" operator.
+//        case({a,b})         //Case statements act like switch statements in C - can toggle outputs based on inputs
+//        2'b00: c_buf=0;     //This line can be interpreted as: if ab = 00, then set c_buf = 0. Note that ab is considered one value because of the {a,b} concatenation operator.
+//        2'b01: c_buf=0;
+//        2'b10: c_buf=0;
+//        2'b11: c_buf=1;
+//        default: c_buf = 0;
+//        endcase
+//    end
+//    reg c_buf=0;             //my xor gate
+//    assign c = c_buf;       
+//    always @(*)             
+//    begin                   
+//        case({a,b})         
+//        2'b00: c_buf=0;     
+//        2'b01: c_buf=1;
+//        2'b10: c_buf=1;
+//        2'b11: c_buf=0;
+//        default: c_buf = 0;
+//        endcase
+//    end   
     
 endmodule //This signifies the end of the module. You can declare multiple modules in the same file,
           //but we won't go into the details of how to do that in this course.

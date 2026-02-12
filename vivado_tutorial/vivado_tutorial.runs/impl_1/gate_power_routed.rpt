@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
-| Date             : Fri Jan 16 13:24:51 2026
+| Date             : Fri Jan 16 15:03:39 2026
 | Host             : Travis-Laptop running 64-bit major release  (build 9200)
 | Command          : report_power -file gate_power_routed.rpt -pb gate_power_summary_routed.pb -rpx gate_power_routed.rpx
 | Design           : gate
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.774        |
+| Total On-Chip Power (W)  | 1.371        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 0.700        |
-| Device Static (W)        | 0.073        |
+| Dynamic (W)              | 1.296        |
+| Device Static (W)        | 0.075        |
 | Effective TJA (C/W)      | 5.0          |
-| Max Ambient (C)          | 81.1         |
-| Junction Temperature (C) | 28.9         |
+| Max Ambient (C)          | 78.1         |
+| Junction Temperature (C) | 31.9         |
 | Confidence Level         | Low          |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -52,12 +52,12 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |     0.001 |        1 |       --- |             --- |
-|   LUT as Logic |     0.001 |        1 |     20800 |           <0.01 |
-| Signals        |     0.008 |        3 |       --- |             --- |
-| I/O            |     0.691 |        3 |       106 |            2.83 |
-| Static Power   |     0.073 |          |           |                 |
-| Total          |     0.774 |          |           |                 |
+| Slice Logic    |     0.002 |        1 |       --- |             --- |
+|   LUT as Logic |     0.002 |        1 |     20800 |           <0.01 |
+| Signals        |     0.011 |        3 |       --- |             --- |
+| I/O            |     1.283 |        3 |       106 |            2.83 |
+| Static Power   |     0.075 |          |           |                 |
+| Total          |     1.371 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -67,9 +67,9 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.028 |       0.017 |      0.011 |       NA    | Unspecified | NA         |
-| Vccaux    |       1.800 |     0.038 |       0.025 |      0.013 |       NA    | Unspecified | NA         |
-| Vcco33    |       3.300 |     0.194 |       0.193 |      0.001 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.033 |       0.021 |      0.012 |       NA    | Unspecified | NA         |
+| Vccaux    |       1.800 |     0.060 |       0.047 |      0.013 |       NA    | Unspecified | NA         |
+| Vcco33    |       3.300 |     0.362 |       0.361 |      0.001 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -134,7 +134,7 @@ Table of Contents
 +------+-----------+
 | Name | Power (W) |
 +------+-----------+
-| gate |     0.700 |
+| gate |     1.296 |
 +------+-----------+
 
 

@@ -3,8 +3,8 @@
 # SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
 # IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
 # SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-# Start of session at: Fri Jan 16 13:23:56 2026
-# Process ID         : 12792
+# Start of session at: Fri Jan 16 15:02:05 2026
+# Process ID         : 13564
 # Current directory  : C:/Users/4trav/Desktop/ECE_316_Labs/vivado_tutorial/vivado_tutorial.runs/impl_1
 # Command line       : vivado.exe -log gate.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source gate.tcl -notrace
 # Log file           : C:/Users/4trav/Desktop/ECE_316_Labs/vivado_tutorial/vivado_tutorial.runs/impl_1/gate.vdi
@@ -19,6 +19,6 @@
 # Host memory        : 33663 MB
 # Swap memory        : 2147 MB
 # Total Virtual      : 35811 MB
-# Available Virtual  : 19336 MB
+# Available Virtual  : 18811 MB
 #-----------------------------------------------------------
 source gate.tcl -notrace

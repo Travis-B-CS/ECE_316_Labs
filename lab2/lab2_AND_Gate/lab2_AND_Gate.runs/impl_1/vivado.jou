@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Thu Feb 12 09:20:25 2026
+# Process ID         : 37940
+# Current directory  : C:/Users/4trav/Desktop/ECE_Labs/ECE_316_Labs/lab2/lab2_AND_Gate/lab2_AND_Gate.runs/impl_1
+# Command line       : vivado.exe -log myAND.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source myAND.tcl -notrace
+# Log file           : C:/Users/4trav/Desktop/ECE_Labs/ECE_316_Labs/lab2/lab2_AND_Gate/lab2_AND_Gate.runs/impl_1/myAND.vdi
+# Journal file       : C:/Users/4trav/Desktop/ECE_Labs/ECE_316_Labs/lab2/lab2_AND_Gate/lab2_AND_Gate.runs/impl_1\vivado.jou
+# Running On         : Travis-Laptop
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 7 5825U with Radeon Graphics         
+# CPU Frequency      : 1996 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 33663 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 35811 MB
+# Available Virtual  : 10509 MB
+#-----------------------------------------------------------
+source myAND.tcl -notrace
