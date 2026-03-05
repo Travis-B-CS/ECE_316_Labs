@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef" \
+"../../../../time_multiplexing.srcs/sources_1/new/clkdiv.v" \
+"../../../../time_multiplexing.srcs/sources_1/new/hexto7segment.v" \
+"../../../../time_multiplexing.srcs/sources_1/new/time_multiplexing_main.v" \
+"../../../../time_multiplexing.srcs/sources_1/new/time_mux_state_machine.v" \
+"../../../../time_multiplexing.srcs/sim_1/new/tb_time_multiplexing_main.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
