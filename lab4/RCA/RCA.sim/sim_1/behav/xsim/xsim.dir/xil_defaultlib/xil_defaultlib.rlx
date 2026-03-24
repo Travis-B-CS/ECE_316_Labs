@@ -1,0 +1,9 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+C:/Users/4trav/Desktop/ECE_Labs/ECE_316_Labs/lab4/RCA/RCA.sim/sim_1/behav/xsim/glbl.v,1756381829,verilog,,,,glbl,,,,,,,,
+C:/Users/4trav/Desktop/ECE_Labs/ECE_316_Labs/lab4/RCA/RCA.srcs/sim_1/new/tb_RCA_4bits.v,1774385288,verilog,,,,tb_RCA_4bits,,,../../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/4trav/Desktop/ECE_Labs/ECE_316_Labs/lab4/RCA/RCA.srcs/sources_1/new/RCA_4bits.v,1774385216,verilog,,C:/Users/4trav/Desktop/ECE_Labs/ECE_316_Labs/lab4/RCA/RCA.srcs/sources_1/new/full_adder.v,,RCA_4bits,,,../../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/4trav/Desktop/ECE_Labs/ECE_316_Labs/lab4/RCA/RCA.srcs/sources_1/new/full_adder.v,1774384526,verilog,,C:/Users/4trav/Desktop/ECE_Labs/ECE_316_Labs/lab4/RCA/RCA.srcs/sources_1/new/register_logic.v,,full_adder,,,../../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/4trav/Desktop/ECE_Labs/ECE_316_Labs/lab4/RCA/RCA.srcs/sources_1/new/register_logic.v,1774384595,verilog,,C:/Users/4trav/Desktop/ECE_Labs/ECE_316_Labs/lab4/RCA/RCA.srcs/sim_1/new/tb_RCA_4bits.v,,register_logic,,,../../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
