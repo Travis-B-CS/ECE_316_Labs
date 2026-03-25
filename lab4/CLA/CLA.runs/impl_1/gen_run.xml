@@ -1,100 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1774387701">
-  <File Type="ROUTE-BLACKBOX-DCP" Name="CLA_4bits_routed_bb.dcp"/>
-  <File Type="OPT-UTIL" Name="CLA_4bits_utilization_opted.rpt"/>
-  <File Type="ROUTE-PWR" Name="CLA_4bits_power_routed.rpt"/>
-  <File Type="PA-TCL" Name="CLA_4bits.tcl"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="CLA_4bits_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="CLA_4bits_timing_summary_init.rpt"/>
-  <File Type="ROUTE-PWR-SUM" Name="CLA_4bits_power_summary_routed.pb"/>
-  <File Type="OPT-RQA-PB" Name="CLA_4bits_rqa_opted.pb"/>
   <File Type="REPORTS-TCL" Name="CLA_4bits_reports.tcl"/>
-  <File Type="ROUTE-TIMING-PB" Name="CLA_4bits_timing_summary_routed.pb"/>
-  <File Type="OPT-UTIL-PB" Name="CLA_4bits_utilization_opted.pb"/>
-  <File Type="OPT-DCP" Name="CLA_4bits_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="CLA_4bits_power_summary_routed.pb"/>
+  <File Type="BITSTR-MMI" Name="CLA_4bits.mmi"/>
   <File Type="OPT-DRC" Name="CLA_4bits_drc_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="CLA_4bits.hwdef"/>
-  <File Type="OPT-TIMING" Name="CLA_4bits_timing_summary_opted.rpt"/>
-  <File Type="PWROPT-DCP" Name="CLA_4bits_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="CLA_4bits_drc_pwropted.rpt"/>
-  <File Type="NOC_TRAFFIC_SPEC_FILE" Name="CLA_4bits.nts"/>
-  <File Type="PWROPT-TIMING" Name="CLA_4bits_timing_summary_pwropted.rpt"/>
-  <File Type="PLACE-DCP" Name="CLA_4bits_placed.dcp"/>
-  <File Type="PLACE-IO" Name="CLA_4bits_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="CLA_4bits_clock_utilization_placed.rpt"/>
+  <File Type="BG-DRC" Name="CLA_4bits.drc"/>
+  <File Type="ROUTE-STATUS-PB" Name="CLA_4bits_route_status.pb"/>
+  <File Type="BG-BGN" Name="CLA_4bits.bgn"/>
   <File Type="PLACE-UTIL" Name="CLA_4bits_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL-PB" Name="CLA_4bits_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="CLA_4bits_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="CLA_4bits_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="CLA_4bits_incremental_reuse_pre_placed.rpt"/>
-  <File Type="NOC_SOLUTION_FILE" Name="CLA_4bits.ncr"/>
-  <File Type="PLACE-TIMING" Name="CLA_4bits_timing_summary_placed.rpt"/>
-  <File Type="ROUTE-PWR-RPX" Name="CLA_4bits_power_routed.rpx"/>
-  <File Type="PLACE-RQA-PB" Name="CLA_4bits_rqa_placed.pb"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="CLA_4bits_postplace_pwropt.dcp"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="CLA_4bits_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="CLA_4bits_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="CLA_4bits_drc_physopted.rpt"/>
-  <File Type="PHYSOPT-TIMING" Name="CLA_4bits_timing_summary_physopted.rpt"/>
-  <File Type="ROUTE-UTIL" Name="CLA_4bits_utilization_routed.rpt"/>
-  <File Type="ROUTE-ERROR-DCP" Name="CLA_4bits_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="CLA_4bits_routed.dcp"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="CLA_4bits_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-UTIL-PB" Name="CLA_4bits_utilization_routed.pb"/>
-  <File Type="ROUTE-DRC" Name="CLA_4bits_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="CLA_4bits_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="CLA_4bits_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="CLA_4bits_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="CLA_4bits_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="CLA_4bits_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-RQS-PB" Name="CLA_4bits_rqs_routed.pb"/>
-  <File Type="ROUTE-STATUS" Name="CLA_4bits_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="CLA_4bits_route_status.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="CLA_4bits_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="CLA_4bits_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="CLA_4bits_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="CLA_4bits_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="CLA_4bits_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="CLA_4bits_bus_skew_routed.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="CLA_4bits_postroute_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="CLA_4bits_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="CLA_4bits_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="CLA_4bits_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="CLA_4bits_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="CLA_4bits_bus_skew_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="CLA_4bits_bus_skew_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="CLA_4bits_bus_skew_postroute_physopted.rpx"/>
-  <File Type="BG-BIT" Name="CLA_4bits.bit"/>
+  <File Type="PLACE-IO" Name="CLA_4bits_io_placed.rpt"/>
   <File Type="BG-BIN" Name="CLA_4bits.bin"/>
+  <File Type="PLACE-CTRL" Name="CLA_4bits_control_sets_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="CLA_4bits_power_routed.rpx"/>
   <File Type="BITSTR-MSK" Name="CLA_4bits.msk"/>
   <File Type="BITSTR-RBT" Name="CLA_4bits.rbt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="CLA_4bits_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="CLA_4bits_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="CLA_4bits_route_status.rpt"/>
+  <File Type="PA-TCL" Name="CLA_4bits.tcl"/>
+  <File Type="ROUTE-PWR" Name="CLA_4bits_power_routed.rpt"/>
+  <File Type="ROUTE-DRC" Name="CLA_4bits_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="CLA_4bits_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="CLA_4bits_drc_routed.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="CLA_4bits.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="CLA_4bits_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="CLA_4bits_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="CLA_4bits.ltx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="CLA_4bits_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-SIMILARITY" Name="CLA_4bits_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="CLA_4bits.vdi"/>
+  <File Type="ROUTE-CLK" Name="CLA_4bits_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="CLA_4bits_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="CLA_4bits_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="CLA_4bits_bus_skew_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="CLA_4bits_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="CLA_4bits_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="CLA_4bits_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="CLA_4bits_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="CLA_4bits_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="CLA_4bits.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="CLA_4bits_bus_skew_postroute_physopted.pb"/>
   <File Type="BITSTR-NKY" Name="CLA_4bits.nky"/>
   <File Type="BITSTR-BMM" Name="CLA_4bits_bd.bmm"/>
-  <File Type="BITSTR-MMI" Name="CLA_4bits.mmi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-HWDEF" Name="CLA_4bits.hwdef"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="CLA_4bits_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DCP" Name="CLA_4bits_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="CLA_4bits_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="CLA_4bits_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMING-PB" Name="CLA_4bits_timing_summary_routed.pb"/>
+  <File Type="OPT-DCP" Name="CLA_4bits_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="CLA_4bits_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="CLA_4bits_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="CLA_4bits_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="CLA_4bits_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="CLA_4bits_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="CLA_4bits_postroute_physopt_bb.dcp"/>
   <File Type="PDI-FILE" Name="CLA_4bits.pdi"/>
   <File Type="BOOT-PDI-FILE" Name="CLA_4bits_boot.pdi"/>
   <File Type="PL-PDI-FILE" Name="CLA_4bits_pld.pdi"/>
   <File Type="RCFI_FILE" Name="CLA_4bits.rcfi"/>
   <File Type="CFI_FILE" Name="CLA_4bits.cfi"/>
   <File Type="RNPI_FILE" Name="CLA_4bits.rnpi"/>
-  <File Type="RCDO-FILE" Name="CLA_4bits.rcdo"/>
-  <File Type="MARKER-RNPI-FILE" Name="CLA_4bits_markers.rnpi"/>
-  <File Type="MARKER-RCDO-FILE" Name="CLA_4bits_markers.rcdo"/>
-  <File Type="BOOT_RNPI_FILE" Name="CLA_4bits_boot.rnpi"/>
-  <File Type="BOOT_MARKER_RNPI_FILE" Name="CLA_4bits_boot_markers.rnpi"/>
-  <File Type="PL_RNPI_FILE" Name="CLA_4bits_pld.rnpi"/>
-  <File Type="PL_MARKER_RNPI_FILE" Name="CLA_4bits_pld_markers.rnpi"/>
-  <File Type="PL_MASK_RNPI_FILE" Name="CLA_4bits_pld_mask.rnpi"/>
-  <File Type="PL_SHUTDOWN_RNPI_FILE" Name="CLA_4bits_pld_shutdown.rnpi"/>
-  <File Type="PL_UNMASK_RNPI_FILE" Name="CLA_4bits_pld_unmask.rnpi"/>
-  <File Type="PL-RCDO-FILE" Name="CLA_4bits_pld.rcdo"/>
-  <File Type="PL-CLEAR-RCDO-FILE" Name="CLA_4bits_pld_clear.rcdo"/>
-  <File Type="PL_MARKER_RCDO_FILE" Name="CLA_4bits_pld_markers.rcdo"/>
-  <File Type="PL_MASK_RCDO_FILE" Name="CLA_4bits_pld_mask.rcdo"/>
-  <File Type="PL_UNMASK_MARKER_RCDO_FILE" Name="CLA_4bits_pld_unmask_markers.rcdo"/>
-  <File Type="PL_UNMASK_RCDO_FILE" Name="CLA_4bits_pld_unmask.rcdo"/>
   <File Type="NPI_FILE" Name="CLA_4bits.npi"/>
   <File Type="RBD_FILE" Name="CLA_4bits.rbd"/>
+  <File Type="ROUTE-RQS" Name="CLA_4bits_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="CLA_4bits_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
   <File Type="MMI-FILE" Name="CLA_4bits.mmi"/>
   <File Type="BIF-FILE" Name="CLA_4bits.bif"/>
   <File Type="BOOT-BIF-FILE" Name="CLA_4bits_boot.bif"/>
@@ -102,17 +77,24 @@
   <File Type="LTX-FILE" Name="CLA_4bits.ltx"/>
   <File Type="BOOT-LTX-FILE" Name="CLA_4bits_boot.ltx"/>
   <File Type="PL-LTX-FILE" Name="CLA_4bits_pld.ltx"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="CLA_4bits.ltx"/>
-  <File Type="BITSTR-SYSDEF" Name="CLA_4bits.sysdef"/>
-  <File Type="BG-BGN" Name="CLA_4bits.bgn"/>
-  <File Type="BG-DRC" Name="CLA_4bits.drc"/>
-  <File Type="RDI-RDI" Name="CLA_4bits.vdi"/>
-  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="ROUTE-RQS" Name="CLA_4bits_routed.rqs"/>
-  <File Type="POSTROUTE-PHYSOPT-RQS" Name="CLA_4bits_postroute_physopted.rqs"/>
-  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <File Type="RCDO-FILE" Name="CLA_4bits.rcdo"/>
+  <File Type="MARKER-RCDO-FILE" Name="CLA_4bits_markers.rcdo"/>
+  <File Type="PL-RCDO-FILE" Name="CLA_4bits_pld.rcdo"/>
+  <File Type="MARKER-RNPI-FILE" Name="CLA_4bits_markers.rnpi"/>
+  <File Type="BOOT_RNPI_FILE" Name="CLA_4bits_boot.rnpi"/>
+  <File Type="PL_RNPI_FILE" Name="CLA_4bits_pld.rnpi"/>
+  <File Type="BOOT_MARKER_RNPI_FILE" Name="CLA_4bits_boot_markers.rnpi"/>
+  <File Type="PL_MARKER_RNPI_FILE" Name="CLA_4bits_pld_markers.rnpi"/>
+  <File Type="PL_MASK_RNPI_FILE" Name="CLA_4bits_pld_mask.rnpi"/>
+  <File Type="PL_SHUTDOWN_RNPI_FILE" Name="CLA_4bits_pld_shutdown.rnpi"/>
+  <File Type="PL_UNMASK_RNPI_FILE" Name="CLA_4bits_pld_unmask.rnpi"/>
+  <File Type="PL-CLEAR-RCDO-FILE" Name="CLA_4bits_pld_clear.rcdo"/>
+  <File Type="PL_MARKER_RCDO_FILE" Name="CLA_4bits_pld_markers.rcdo"/>
+  <File Type="PL_MASK_RCDO_FILE" Name="CLA_4bits_pld_mask.rcdo"/>
+  <File Type="PL_UNMASK_MARKER_RCDO_FILE" Name="CLA_4bits_pld_unmask_markers.rcdo"/>
+  <File Type="PL_UNMASK_RCDO_FILE" Name="CLA_4bits_pld_unmask.rcdo"/>
+  <File Type="NOC_TRAFFIC_SPEC_FILE" Name="CLA_4bits.nts"/>
+  <File Type="NOC_SOLUTION_FILE" Name="CLA_4bits.ncr"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/register_logic.v">
@@ -154,9 +136,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2025">
-      <Desc>Default settings for Implementation.</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2025"/>
     <Step Id="init_design"/>
     <Step Id="opt_design"/>
     <Step Id="power_opt_design"/>
@@ -166,5 +146,6 @@
     <Step Id="route_design"/>
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
   </Strategy>
 </GenRun>
