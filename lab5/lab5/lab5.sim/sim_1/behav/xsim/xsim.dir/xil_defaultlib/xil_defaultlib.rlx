@@ -1,0 +1,11 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+C:/Users/4trav/Desktop/ECE_Labs/ECE_316_Labs/lab5/lab5/lab5.sim/sim_1/behav/xsim/glbl.v,1756381829,verilog,,,,glbl,,,,,,,,
+C:/Users/4trav/Desktop/ECE_Labs/ECE_316_Labs/lab5/lab5/lab5.srcs/sources_1/new/clkdiv.v,1776195763,verilog,,C:/Users/4trav/Desktop/ECE_Labs/ECE_316_Labs/lab5/lab5/lab5.srcs/sources_1/new/hexto7segment.v,,clkdiv,,,../../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/4trav/Desktop/ECE_Labs/ECE_316_Labs/lab5/lab5/lab5.srcs/sources_1/new/hexto7segment.v,1776198611,verilog,,C:/Users/4trav/Desktop/ECE_Labs/ECE_316_Labs/lab5/lab5/lab5.srcs/sources_1/new/mode1.v,,hexto7segment,,,../../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/4trav/Desktop/ECE_Labs/ECE_316_Labs/lab5/lab5/lab5.srcs/sources_1/new/mode1.v,1776196560,verilog,,C:/Users/4trav/Desktop/ECE_Labs/ECE_316_Labs/lab5/lab5/lab5.srcs/sources_1/new/rising_edge_detector.v,,mode1,,,../../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/4trav/Desktop/ECE_Labs/ECE_316_Labs/lab5/lab5/lab5.srcs/sources_1/new/rising_edge_detector.v,1776199207,verilog,,C:/Users/4trav/Desktop/ECE_Labs/ECE_316_Labs/lab5/lab5/lab5.srcs/sources_1/new/seven_segment_mux.v,,rising_edge_detector,,,../../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/4trav/Desktop/ECE_Labs/ECE_316_Labs/lab5/lab5/lab5.srcs/sources_1/new/seven_segment_mux.v,1776197516,verilog,,C:/Users/4trav/Desktop/ECE_Labs/ECE_316_Labs/lab5/lab5/lab5.srcs/sources_1/new/top.v,,seven_segment_mux,,,../../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/4trav/Desktop/ECE_Labs/ECE_316_Labs/lab5/lab5/lab5.srcs/sources_1/new/top.v,1776198194,verilog,,,,top,,,../../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
